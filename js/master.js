@@ -11,15 +11,15 @@ let utName, utSurname, favColor;
 
 
 // chiedere nome utente
-utName = prompt('come ti chiami?');
+utName = prompt('come ti chiami? (se vuoi mettere degli spazi usa questo "-")');
 
 
 // chiedere cognome utente 
-utSurname = prompt('e il tuo cognome?');
+utSurname = prompt('e il tuo cognome? (se vuoi mettere degli spazi usa questo "-")');
 
 
 // chiedere colore preferito
-favColor = prompt('quale colore preferisci?');
+favColor = prompt('quale colore preferisci? (se vuoi mettere degli spazi usa questo "-")');
 
 
 // generare password con i dati
