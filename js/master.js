@@ -23,7 +23,7 @@ favColor = prompt('quale colore preferisci? (se vuoi mettere degli spazi usa que
 
 
 // generare password con i dati
-const password = (utName + utSurname + favColor + '21');
+const password = (utName + '-' + utSurname + '-' + favColor + '-' + '21');
 
 
 // mostrare il risultato in pagina
