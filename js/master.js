@@ -31,3 +31,4 @@ console.log(password);
 
 
 // mostrare il risultato in pagina
+document.getElementById('generated_psw').innerHTML = password
